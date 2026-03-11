@@ -53,7 +53,11 @@ macOS requires placing the mod inside the `.app` bundle and running the game und
    ```
    <Slay the Spire 2>/SlayTheSpire2.app/Contents/MacOS/mods/
    ```
-3. Run the game under Rosetta 2 using **one** of these methods:
+3. Both launch methods below bypass Steam's normal launch flow. To avoid a **"Steam failed to initialize"** error, make sure the **Steam client is running** in the background and create a `steam_appid.txt` file next to the game executable:
+   ```bash
+   echo "2868840" > "$HOME/Library/Application Support/Steam/steamapps/common/Slay the Spire 2/SlayTheSpire2.app/Contents/MacOS/steam_appid.txt"
+   ```
+4. Run the game under Rosetta 2 using **one** of these methods:
 
    **Option A — Finder (recommended):** Navigate to `SlayTheSpire2.app`, right-click > **Get Info**, and check **"Open using Rosetta"**. Then double-click `SlayTheSpire2.app` directly to launch (do **not** launch through Steam, as it may override the Rosetta setting).
 
@@ -63,7 +67,7 @@ macOS requires placing the mod inside the `.app` bundle and running the game und
    arch -x86_64 "./Slay the Spire 2"
    ```
 
-4. Launch the game. The mod will be enabled automatically.
+5. The mod will be enabled automatically on launch.
 
 ## ⚙️ Configuration
 
