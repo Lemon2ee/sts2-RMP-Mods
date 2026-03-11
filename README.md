@@ -48,6 +48,8 @@ This mod elegantly increases the multiplayer lobby limit. By default, it perfect
 
 macOS requires placing the mod inside the `.app` bundle and running the game under Rosetta 2.
 
+> **Note:** Online multiplayer has not been tested on macOS. The mod is only confirmed to launch correctly and show as loaded in the bottom-right corner.
+
 1. Download the latest `sts2-RMP-[version].zip` from the **Releases** page.
 2. Extract the archive and copy the inner `RemoveMultiplayerPlayerLimit` folder to:
    ```

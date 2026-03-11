@@ -48,6 +48,8 @@
 
 macOS 需要将模组放入 `.app` 包内部，并通过 Rosetta 2 运行游戏。
 
+> **注意：** 尚未进行联机实测，仅能保证正确打开游戏并且右下角显示正常载入模组。
+
 1. 从 **Releases** 页面下载最新的 `sts2-RMP-[version].zip` 压缩包。
 2. 解压并将内部的 `RemoveMultiplayerPlayerLimit` 文件夹复制到：
    ```
