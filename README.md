@@ -34,7 +34,7 @@ This mod elegantly increases the multiplayer lobby limit. By default, it perfect
 * 🏕️ **Expanded Campfire Seating:** When there are more than 4 players, character models will not overlap. Campfires automatically generate front and back rows, complete with additional background logs for everyone to sit on.
 * 💰 **Organized Shop Layout:** When visiting the merchant with a large group, player models are automatically arranged into neat grids (rows and columns) to prevent crowding and overlapping.
 * 🎁 **Smart Treasure Room:** The relic selection screen automatically scales, intelligently splitting **relic slots** into two perfectly centered rows when needed.
-* 📝 **Customizable Limit:** Easily adjust your preferred maximum player count (4-16) via an auto-generated `config.json` file.
+* 📝 **Customizable Limit:** Easily adjust your preferred maximum player count (4-16) via an auto-generated `settings.json` file.
 
 ## 🎮 Installation
 
@@ -73,7 +73,7 @@ macOS requires placing the mod inside the `.app` bundle and running the game und
 
 ## ⚙️ Configuration
 
-After launching the game with the mod enabled for the first time, a `config.json` file will be generated in the mod's folder (`mods/RemoveMultiplayerPlayerLimit/config.json`).
+After launching the game with the mod enabled for the first time, a `settings.json` file will be generated in the mod's folder (`mods/RemoveMultiplayerPlayerLimit/settings.json`).
 
 ```json
 {

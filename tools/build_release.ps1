@@ -19,6 +19,7 @@ Get-ChildItem -Path $buildRoot -Filter "sts2-RMP-*.zip" -File -ErrorAction Silen
 
 Copy-Item $dllSource -Destination (Join-Path $releaseDir "RemoveMultiplayerPlayerLimit.dll") -Force
 Copy-Item $pckSource -Destination (Join-Path $releaseDir "RemoveMultiplayerPlayerLimit.pck") -Force
+Copy-Item $manifestPath -Destination (Join-Path $releaseDir "config.json") -Force
 
 $manifest = Get-Content $manifestPath -Raw | ConvertFrom-Json
 $version = [string]$manifest.version

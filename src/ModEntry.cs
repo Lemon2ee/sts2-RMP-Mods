@@ -31,7 +31,7 @@ public static partial class ModEntry
 
 	private const string ModFolderName = "RemoveMultiplayerPlayerLimit";
 
-	private const string ConfigFileName = "config.json";
+	private const string ConfigFileName = "settings.json";
 
 	private static int TargetPlayerLimit { get; set; } = DefaultPlayerLimit;
 

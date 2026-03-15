@@ -19,6 +19,7 @@ rm -f "$BUILD_ROOT"/sts2-RMP-*.zip
 
 cp "$DLL_SOURCE" "$RELEASE_DIR/RemoveMultiplayerPlayerLimit.dll"
 cp "$PCK_SOURCE" "$RELEASE_DIR/RemoveMultiplayerPlayerLimit.pck"
+cp "$MANIFEST_PATH" "$RELEASE_DIR/config.json"
 
 if ! command -v jq &> /dev/null; then
     echo "Error: jq is required to parse mod_manifest.json. Please install it (e.g., sudo apt install jq)."
